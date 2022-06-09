@@ -6,50 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Yarick Coppejans">
 
-    <!-- Tailwind CSS -->
+    <!-- Tailwind & CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="dist/output.css">
     <title>Yarick Coppejans - Web developer
     </title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#profile">Profile</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contact
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="profile">Profile</a>
-                    <a class="dropdown-item" href="#">Form</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <Card className="shadow-lg">
+      <CardHeader
+        variant="gradient"
+        color="grey"
+        className="h-48"
+      >
+        <img
+          src="/img/blog-2.jpg"
+          alt="tailwind-img-blur-shadow"
+          className="w-full h-full"
+        />
+      </CardHeader>
+      <CardBody className="text-center">
+        <Typography
+          as="a"
+          variant="h5"
+          className="text-[#1A237E] font-normal mb-2"
+        >
+          Great for your awesome project
+        </Typography>
+        <Typography>
+          Putting together a page has never been easier than
+          matching together pre-made components. From landing
+          pages presentation to login areas, you can easily
+          customise and built your pages.
+        </Typography>
+      </CardBody>
+    </Card>
 
-          <div class="jumbotron jumbotron-fluid text-center custom+ text-light">
-            <h1>Portfolio</h1>
-            <p>An interactive way to get to know a software developer.</p>
-          </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src="js/init.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- JavaScript & JQuery -->
+    <!-- jQuery -->
+    <script src="js/init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </body>
 </html>
