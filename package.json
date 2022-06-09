@@ -1,0 +1,27 @@
+{
+  "name": "copyar.github.io",
+  "version": "1.0.0",
+  "description": "copyar portfolio",
+  "main": "init.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copyar/copyar.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Copyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/copyar/copyar.github.io/issues"
+  },
+  "homepage": "https://github.com/copyar/copyar.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.0"
+  }
+}
