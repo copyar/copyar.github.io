@@ -6,42 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Yarick Coppejans">
 
-    <!-- Tailwind & CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Tailwind & FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="dist/output.css">
     <title>Yarick Coppejans - Web developer
     </title>
   </head>
   <body>
-    <Card className="shadow-lg">
-      <CardHeader
-        variant="gradient"
-        color="grey"
-        className="h-48"
-      >
-        <img
-          src="/img/blog-2.jpg"
-          alt="tailwind-img-blur-shadow"
-          className="w-full h-full"
-        />
-      </CardHeader>
-      <CardBody className="text-center">
-        <Typography
-          as="a"
-          variant="h5"
-          className="text-[#1A237E] font-normal mb-2"
-        >
-          Great for your awesome project
-        </Typography>
-        <Typography>
-          Putting together a page has never been easier than
-          matching together pre-made components. From landing
-          pages presentation to login areas, you can easily
-          customise and built your pages.
-        </Typography>
-      </CardBody>
-    </Card>
-
+    <nav class="navbar bg-white w-full">
+      <div class="container-lg px-0">
+        <div class="w-full flex items-center">
+          <a class="nav-brand mr-auto ml-0" href="#">Home</a>
+          <button navbar-trigger="" class="navbar-trigger block lg:hidden ml-auto mr-0 mb-0" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-trigger-icon">
+              <span bar1="" class="navbar-trigger-bar mt-1"><span class="hidden rotate-45 origin-[10%_10%]"></span></span>
+              <span bar2="" class="navbar-trigger-bar bar2 mt-2"></span>
+              <span bar3="" class="navbar-trigger-bar bar3 mt-2"><span class="hidden -rotate-45 origin-[10%_90%] mt-[0.1875rem] mt-[0.4375rem]"></span></span>
+            </span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" navbar-menu="">
+            <ul class="navbar-nav">
+              <li>
+                <a class="nav-link"
+                  aria-current="page" href="#">
+                  <i class="material-icons opacity-60 mr-2 text-base">slash</i>
+                  <span>Documentation</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link"
+                  href="#">
+                  <i class="material-icons opacity-60 mr-2 text-base">contact</i>
+                  <span>Contact</span>
+                </a>
+              </li>
+              <li class="flex">
+                <a class="nav-link"
+                  href="#">
+                  <i class="material-icons opacity-60 mr-2 text-base">view_carousel</i>
+                  <span></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
     <!-- JavaScript & JQuery -->
     <!-- jQuery -->
     <script src="js/init.js"></script>
